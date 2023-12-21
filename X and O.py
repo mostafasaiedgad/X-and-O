@@ -6,7 +6,7 @@ main_window = Tk()
 main_window.geometry('400x520+340+100')
 main_window.resizable(False, False)
 main_window.title('X O')
-icon = tk.PhotoImage(file=r"D:\MSA\Python Projects\X & O game\photos\game.png")
+icon = tk.PhotoImage(file=r"photos\game.png")
 main_window.iconphoto(False, icon)
 
 players = ["x", "o"]
